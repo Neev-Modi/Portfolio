@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="profile-image">
+            <img src="./assets/Neev_image_2.jpg" alt="Neev Modi's Photo">
+        </div>
+        <div class="profile-content">
+            <span class="name-big">N</span><span class="name-small">EEV</span> <span class="name-big">M</span><span
+                class="name-small">ODI</span>
+            <p>B.Tech CSE Student | Full Stack Developer | Blockchain & AI Enthusiast</p>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Hello, My name is NEEV MODI. I am currently pursuing Computer Science & Engineering at
+                National Institute of Technology, Warangal. I am in my 5th semester. I am passionate about
+                DSA and Development. I have a keen interest in AI/Ml and BlockChain Technologies.
+            </p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+
+            <article class="project-card">
+                <h3>Innovault</h3>
+                <ul>
+                    <li>Tech Stack : MongoDB, Express.JS, React.JS, Node.JS</li>
+                    <li>Purpose : A Centralized platform where students from NIT Warangal can present their Innovation.
+                    </li>
+                    <li>Features :
+                        <ul>
+                            <li>Email Verification</li>
+                            <li>User Authentication and Authorization</li>
+                            <li>Project Submission, Bookmark, Search</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>NLP Based Code Summarizer</h3>
+                <ul>
+                    <li>Tech Stack : Python, PyTorch, Transformers, Streamlit</li>
+                    <li>Purpose : To generate Summary and Security finding of the small code, big code or a directory
+                        with a hybrid approach.</li>
+                    <li>Features :
+                        <ul>
+                            <li>AST generation + Feature Extraction</li>
+                            <li>Security Analysis with static tool</li>
+                            <li>Code Summary using codeT5</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>Book Notes</h3>
+                <ul>
+                    <li>Tech Stack : PostGreSQL, EJS, Express.JS, Node.JS</li>
+                    <li>Purpose : Your own BookMark for the books you have read and the books you plan to read in the
+                        future</li>
+                    <li>Features :
+                        <ul>
+                            <li>Dark theme + Light Theme</li>
+                            <li>Local PostGres Database</li>
+                            <li>Melticulously designed schema</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <p class="skill"> C++ </p>
+                <p class="skill"> Java </p>
+                <p class="skill"> JavaScript </p>
+                <p class="skill"> Python </p>
+                <p class="skill"> HTML </p>
+                <p class="skill"> CSS </p>
+                <p class="skill"> React.JS </p>
+                <p class="skill"> Node.JS </p>
+                <p class="skill"> Express.JS </p>
+                <p class="skill"> MongoDB </p>
+                <p class="skill"> PostGreSQL </p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post" class="form">
+                <div class="form-row">
+                    <label for="name">Full Name : </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email Address : </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="subject">Subject : </label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-message">
+                    <label for="message">Message : </label>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div><a href="https://www.linkedin.com/in/neev-modi-b76373313/"> Linkedin</a></div>
+        <div></div><a href="https://github.com/Neev-Modi/">Github</a></div>
+    </footer>
+</body>
+
+</html>
